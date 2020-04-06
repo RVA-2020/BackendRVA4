@@ -24,6 +24,10 @@ public class StavkaPorudzbine implements Serializable {
 	@GeneratedValue(strategy=GenerationType.SEQUENCE, generator="STAVKA_PORUDZBINE_ID_GENERATOR")
 	private Integer id;
 
+	/*
+	 * Proveriti da li je kompletan @SequenceGenerator
+	*/
+	
 	private BigDecimal cena;
 
 	@Column(name="jedinica_mere")
